@@ -65,8 +65,17 @@ body::before {
 
 .imagens {
    display: inline-block;
-   text-align: left;
+   text-align: center;
    margin: 1.25rem;
    opacity: 1;
    position: relative;
+}
+
+.animacaoImagem {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.animacaoImagem:hover {
+    transform: scale(1.1);
 }
