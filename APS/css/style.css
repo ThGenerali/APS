@@ -65,6 +65,7 @@ body::before {
 
 .imagens {
    display: inline-block;
+   align-items: center;
    text-align: center;
    margin: 1.25rem;
    opacity: 1;
@@ -72,8 +73,11 @@ body::before {
 }
 
 .animacaoImagem {
+    display: flex;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    justify-content: center;
+    position: relative;
 }
 
 .animacaoImagem:hover {
