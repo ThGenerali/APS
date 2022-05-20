@@ -34,6 +34,7 @@ body::before {
     display: inline-block;
     text-transform: uppercase;
     margin: 0 1.25rem;
+    font-size: 30px;
 }
 
 .menu-icone {
@@ -61,13 +62,14 @@ body::before {
     text-align: center;
     margin: 1.25rem;
     position: relative;
+    font-size: 20px;
 }
 
 .imagens {
    display: inline-block;
    align-items: center;
    text-align: center;
-   margin: 1.25rem;
+   margin: 1.25rem 3rem;
    opacity: 1;
    position: relative;
 }
