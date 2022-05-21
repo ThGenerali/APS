@@ -123,7 +123,7 @@ body#pais-Alemanha-hovered::before {
     
 }
 
-body#pais-Bélgica-hovered::before {
+body#pais-Belgica-hovered::before {
     background-image: url('/html-simples/APS/images/belgicabg.jpg');
 }
 
