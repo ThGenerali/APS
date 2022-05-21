@@ -1,7 +1,7 @@
 @import url('css/edit.css');
 
 body{
-    background-image: url('/html-simples/APS/images/estrelasbg.jpg');
+    background-image: url('../images/estrelasbg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 300px;
@@ -13,7 +13,7 @@ body{
 
 body::before {
         content: "";
-        background-image: url('/html-simples/APS/images/bg.jpg');
+        background-image: url('../images/bg.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -36,7 +36,7 @@ body::before {
     display: inline-block;
     text-transform: uppercase;
     margin: 0 1.25rem;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .menu-icone {
@@ -119,33 +119,33 @@ body::before {
 }
 
 body#pais-Alemanha-hovered::before {
-    background-image: url('/html-simples/APS/images/alemanhabg.jpg');
+    background-image: url('../images/alemanhabg.jpg');
     
 }
 
 body#pais-Belgica-hovered::before {
-    background-image: url('/html-simples/APS/images/belgicabg.jpg');
+    background-image: url('../images/belgicabg.jpg');
 }
 
 body#pais-Espanha-hovered::before {
-    background-image: url('/html-simples/APS/images/espanhabg.jpg');
+    background-image: url('../images/espanhabg.jpg');
 }
 
 body#pais-França-hovered::before {
-    background-image: url('/html-simples/APS/images/francabg.jpg');
+    background-image: url('../images/francabg.jpg');
 }
 
 body#pais-Inglaterra-hovered::before {
-    background-image: url('/html-simples/APS/images/inglaterrabg.jpg');
+    background-image: url('../images/inglaterrabg.jpg');
 }
 body#pais-Itália-hovered::before {
-    background-image: url('/html-simples/APS/images/italiabg.jpg');
+    background-image: url('../images/italiabg.jpg');
 }
 body#pais-Portugal-hovered::before {
-    background-image: url('/html-simples/APS/images/portugalbg.jpg');
+    background-image: url('../images/portugalbg.jpg');
 }
 body#pais-Suíça-hovered::before {
-    background-image: url('/html-simples/APS/images/suicabg.jpg');
+    background-image: url('../images/suicabg.jpg');
 }
 
 body[id^="pais-"]::before {
