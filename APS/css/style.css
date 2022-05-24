@@ -1,6 +1,6 @@
-@import url('css/edit.css');
+@import url('../css/edit.css');
 
-body{
+body {
     background-image: url('../images/estrelasbg.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -53,19 +53,6 @@ body::before {
     object-position: -5px ;
 }
 
-.titulo {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-    position: relative;
-}
-
-.introducao {
-    text-align: center;
-    margin: 1.25rem;
-    position: relative;
-    font-size: 20px;
-}
 
 .container {
     position: relative;
@@ -85,7 +72,6 @@ body::before {
 
 .animacaoImagem {
     display: flex;
-    cursor: pointer;
     transition: transform 0.3s ease-in-out;
     justify-content: center;
     position: relative;

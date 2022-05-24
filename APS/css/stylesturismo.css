@@ -1,0 +1,23 @@
+@import url('edit.css');
+body {
+    background-image: url('../images/estrelasbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 810px;
+    background-size: 400px;
+    position: relative;
+    opacity: 0,1;
+    
+}
+
+body::before {
+    content: "";
+    background-image: url('../images/turismobg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 1950px;
+    width: 1310px;
+    opacity: 0.3;
+}

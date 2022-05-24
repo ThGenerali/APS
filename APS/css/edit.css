@@ -11,3 +11,36 @@
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
 }
+
+body {
+    background-color: black;
+ }
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    position: relative;
+}
+
+.texto {
+    text-align: center;
+    margin: 1.25rem;
+    position: relative;
+    font-size: 20px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: relative;
+}
+
+.introducao {
+    text-align: center;
+    margin: 1.25rem;
+    position: relative;
+    font-size: 25px;
+}
+
